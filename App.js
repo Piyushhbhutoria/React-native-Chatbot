@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
-import {Button, View} from 'react-native';
-import {Dialogflow_V2} from 'react-native-dialogflow';
-import {GiftedChat} from 'react-native-gifted-chat';
-import {dialogflowConfig} from './env';
+import React, { Component } from 'react';
+import { Button, View } from 'react-native';
+import { Dialogflow_V2 } from 'react-native-dialogflow';
+import { GiftedChat } from 'react-native-gifted-chat';
+import { dialogflowConfig } from './env';
 
 const BOT_USER = {
   _id: 2,
@@ -165,7 +165,7 @@ export default class App extends Component {
   render() {
     return (
       <View
-        style={{flex: 1, backgroundColor: '#fff'}}
+        style={{ flex: 1, backgroundColor: '#fff' }}
         behavior="padding"
         enabled>
         <GiftedChat

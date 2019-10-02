@@ -9,3 +9,4 @@ export const dialogflowConfig = {
     token_uri: "https://oauth2.googleapis.com/token",
     auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/xxx",
     client_x509_cert_url: "https://www.googleapis.com/robot/xxx/test-141%40finatic-f4060.iam.gserviceaccount.com"
+}
